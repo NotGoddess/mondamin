@@ -46,6 +46,7 @@
         "drupal/devel": "^2.1",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/geocoder": "^2.3",
+        "drupal/menu_position": "^1.0@alpha",
         "drupal/metatag": "^1.10",
         "drupal/pathauto": "^1.5",
         "drupal/quick_node_clone": "^1.12",
@@ -56,8 +57,10 @@
         "drupal/token": "^1.5",
         "drupal/uswds_base": "^2.2",
         "drupal/uswds_paragraphs": "^1.0@beta",
+        "drupal/views_bulk_edit": "^2.4",
         "drupal/views_bulk_operations": "^3.3",
         "drush/drush": "^9.0.0",
+        "notgoddess/selu": "dev-master",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
@@ -119,6 +122,11 @@
                 "web/themes/*/*/composer.json"
             ],
             "recurse": true
+        },
+        "patches": {
+            "drupal/uswds_paragraphs": {
+                "Upgrade to USWDS v2": "patches/uswds_paragraphs--upgrade-v2.patch"     
+            }
         }        
     }
 }

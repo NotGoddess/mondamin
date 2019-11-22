@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86f4a0828fecf1cf5dd1a0fdcd8f1aea",
+    "content-hash": "b94adca9a9b6b4d8bc073c26e9daa60d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3222,6 +3222,62 @@
             }
         },
         {
+            "name": "drupal/menu_position",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_position.git",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_position-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "e7927c72b1641a88193a5c02d65880a4ee657cdd"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1546520880",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "BarisW",
+                    "homepage": "https://www.drupal.org/user/107229"
+                },
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "lbainbridge",
+                    "homepage": "https://www.drupal.org/user/2406996"
+                }
+            ],
+            "description": "This module allows for the creation of rules that will dynamically add the current page into the menu system at the requested spots.",
+            "homepage": "https://www.drupal.org/project/menu_position",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_position",
+                "issues": "https://www.drupal.org/project/issues/menu_position"
+            }
+        },
+        {
             "name": "drupal/metatag",
             "version": "1.10.0",
             "source": {
@@ -3848,6 +3904,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Upgrade to USWDS v2": "patches/uswds_paragraphs--upgrade-v2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3865,6 +3924,59 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/uswds_paragraphs",
                 "issues": "https://www.drupal.org/project/issues/uswds_paragraphs?categories=All"
+            }
+        },
+        {
+            "name": "drupal/views_bulk_edit",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_bulk_edit.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_bulk_edit-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "039ebf9c6ae3cdd0555c7bfb97c629ebfee61ddb"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/views_bulk_operations": "~1.0 | ~2.0 | ~3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1570030085",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Grabias",
+                    "homepage": "https://www.drupal.org/u/graber"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                }
+            ],
+            "description": "Allows bulk edition of entity field values.",
+            "homepage": "https://www.drupal.org/project/views_bulk_edit",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_bulk_edit",
+                "issues": "https://www.drupal.org/project/issues/views_bulk_edit?version=8.x"
             }
         },
         {
@@ -4886,6 +4998,35 @@
             "time": "2019-11-08T13:50:10+00:00"
         },
         {
+            "name": "notgoddess/selu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NotGoddess/selu.git",
+                "reference": "3570973d586a1278dd3f5f6bd36e8589479edaff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NotGoddess/selu/zipball/3570973d586a1278dd3f5f6bd36e8589479edaff",
+                "reference": "3570973d586a1278dd3f5f6bd36e8589479edaff",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sara Jacobson",
+                    "email": "notgoddess@gmail.com"
+                }
+            ],
+            "description": "Drupal 8 subtheme of USWDS",
+            "homepage": "https://github.com/notgoddess/selu",
+            "time": "2019-11-21T21:12:59+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v9.99.99",
             "source": {
@@ -4998,16 +5139,16 @@
         },
         {
             "name": "pear/console_getopt",
-            "version": "v1.4.2",
+            "version": "v1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Console_Getopt.git",
-                "reference": "6c77aeb625b32bd752e89ee17972d103588b90c0"
+                "reference": "a41f8d3e668987609178c7c4a9fe48fecac53fa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Console_Getopt/zipball/6c77aeb625b32bd752e89ee17972d103588b90c0",
-                "reference": "6c77aeb625b32bd752e89ee17972d103588b90c0",
+                "url": "https://api.github.com/repos/pear/Console_Getopt/zipball/a41f8d3e668987609178c7c4a9fe48fecac53fa0",
+                "reference": "a41f8d3e668987609178c7c4a9fe48fecac53fa0",
                 "shasum": ""
             },
             "type": "library",
@@ -5025,11 +5166,6 @@
             ],
             "authors": [
                 {
-                    "name": "Greg Beaver",
-                    "email": "cellog@php.net",
-                    "role": "Helper"
-                },
-                {
                     "name": "Andrei Zmievski",
                     "email": "andrei@php.net",
                     "role": "Lead"
@@ -5038,23 +5174,28 @@
                     "name": "Stig Bakken",
                     "email": "stig@php.net",
                     "role": "Developer"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
-            "time": "2019-02-06T16:52:33+00:00"
+            "time": "2019-11-20T18:27:48+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.9",
+            "version": "v1.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "742be8dd68c746a01e4b0a422258e9c9cae1c37f"
+                "reference": "625a3c429d9b2c1546438679074cac1b089116a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/742be8dd68c746a01e4b0a422258e9c9cae1c37f",
-                "reference": "742be8dd68c746a01e4b0a422258e9c9cae1c37f",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/625a3c429d9b2c1546438679074cac1b089116a7",
+                "reference": "625a3c429d9b2c1546438679074cac1b089116a7",
                 "shasum": ""
             },
             "require": {
@@ -5085,7 +5226,7 @@
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
-            "time": "2019-03-13T18:15:44+00:00"
+            "time": "2019-11-19T19:00:24+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -10073,7 +10214,9 @@
         "drupal/auto_entitylabel": 10,
         "drupal/better_exposed_filters": 15,
         "drupal/entity_usage": 10,
-        "drupal/uswds_paragraphs": 10
+        "drupal/menu_position": 15,
+        "drupal/uswds_paragraphs": 10,
+        "notgoddess/selu": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
