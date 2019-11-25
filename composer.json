@@ -38,14 +38,19 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.7",
         "drupal/auto_entitylabel": "^3.0@beta",
+        "drupal/backup_migrate": "^4.0",
         "drupal/better_exposed_filters": "^4.0@alpha",
         "drupal/bg_img_field": "^1.4",
         "drupal/ckeditor_div_manager": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
-        "drupal/devel": "^2.1",
+        "drupal/csv_importer": "^1.5",
+        "drupal/entity_reference_exposed_filters": "^1.0@alpha",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/geocoder": "^2.3",
+        "drupal/geofield_map": "^2.51",
+        "drupal/google_analytics": "^3.0",
+        "drupal/jsonapi_extras": "^3.12",
         "drupal/menu_position": "^1.0@alpha",
         "drupal/metatag": "^1.10",
         "drupal/pathauto": "^1.5",
@@ -67,6 +72,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
+        "drupal/devel": "^2.1",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
@@ -126,6 +132,9 @@
         "patches": {
             "drupal/uswds_paragraphs": {
                 "Upgrade to USWDS v2": "patches/uswds_paragraphs--upgrade-v2.patch"     
+            },
+            "drupal/csv_importer": {
+                "Multiple reference field values": "https://www.drupal.org/files/issues/2019-03-29/csv_importer-multiple_values-3000137-9.patch"     
             }
         }        
     }
